@@ -9,22 +9,36 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-            
-            var Contador, a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, g = 0, h = 0
-            
-            Text("a) Por favor digita el número que más se relacione con lo que has vivido")
-        if a == 1
-        {
-            Contador += 
-        }
         
-            Text("b) ¿Te han mentido o engañado? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("c) ¿Has sido celada? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("d) ¿Te han manoseado sin tu consentimiento? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("e) ¿Han llegado a golpearte? Inclusive si es de juego \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("f) ¿Has sido empujada o jaloneada? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("g) ¿Te han amenazado de muerte? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
-            Text("h) ¿Han abusado de ti sexualmente? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+        
+        Text("Por favor, indique como le gustaría ser identidicado: ")
+        Text("")
+        
+        Text("Por favor, indique su edad: ")
+        Text("")
+    
+        Text("Por favor, indique el sexo con el que se identifica: ")
+        Text("")
+    
+        Text("Por favor, indique el estado en el que reside ")
+
+            
+            var Contador = 0, a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, g = 0
+            
+            Text("Por favor digita el número que más se relacione con lo que has vivido")
+            Text("a) ¿Te han mentido o engañado? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("b) ¿Has sido celada? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("c) ¿Te han manoseado sin tu consentimiento? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("d) ¿Han llegado a golpearte? Inclusive si es de juego \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("e) ¿Has sido empujada o jaloneada? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("f) ¿Te han amenazado de muerte? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+            Text("g) ¿Han abusado de ti sexualmente? \n 1. Nunca   2. Algunas veces   3. Muy seguido")
+        
+        
+        
+    
+        
+        
         
         
         
